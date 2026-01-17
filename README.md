@@ -7,15 +7,13 @@ This project implements a machine learning model to predict whether a loan appli
 **Submitted by:** Alaa Almouiz F. Moh.  
 **ID Number:** S2026_176  
 **Track:** Machine Learning  
-**Organization:** ZAKA
+**Organization:** ZAKA ©
 
 ---
 
 ## Problem Statement
 
 In a banking context, when someone applies for a loan, how likely are they to get approved based on their profile? This notebook addresses this question by building a predictive model that classifies loan applications as approved or rejected.
-
----
 
 ## Dataset
 
@@ -37,7 +35,6 @@ The project uses a loan dataset with the following features:
 | `Property_Area` | Property location (Urban/Rural/Semi-Urban) |
 | `Loan_Status` | **Target variable** - Loan approved (Y/N) |
 
----
 
 ## Project Structure
 
@@ -89,7 +86,6 @@ The project uses a loan dataset with the following features:
    - Precision, Recall, and F1-Score metrics
    - Feature importance visualization
 
----
 
 ## Key Findings
 
@@ -112,7 +108,6 @@ The project uses a loan dataset with the following features:
 - Loan amount term and credit history should ideally be treated as categorical features
 - Linear Regression works reasonably well despite being a continuous regression model adapted for classification
 
----
 
 ## Technologies Used
 
@@ -122,7 +117,6 @@ The project uses a loan dataset with the following features:
 - **Matplotlib & Seaborn** - Data visualization
 - **Scikit-learn** - Machine learning model and metrics
 
----
 
 ## Libraries Required
 
@@ -137,8 +131,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 ```
 
----
-
 ## Results Summary
 
 | Metric | Value |
@@ -150,8 +142,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 | Recall (Class 1) | 99% |
 | F1-Score (Class 1) | 0.87 |
 
----
-
 ## Limitations & Future Improvements
 
 1. **Model Choice:** Linear Regression is not ideal for binary classification; logistic regression or tree-based models would be more appropriate
@@ -160,7 +150,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 4. **Hyperparameter Tuning:** No optimization was performed on model parameters
 5. **Cross-Validation:** Single train-test split may not be representative
 
----
 
 ## How to Use
 
@@ -170,13 +159,11 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 4. Train the model and evaluate predictions
 5. Analyze feature importance for business insights
 
----
-
 ## Author
 
 **Alaa Almouiz F. Moh.**  
 ID: S2026_176  
-Submitted for: ZAKA
+Submitted for: ZAKA ©
 
 ---
 
