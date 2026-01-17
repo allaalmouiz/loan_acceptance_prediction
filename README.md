@@ -9,8 +9,6 @@ This project implements a machine learning model to predict whether a loan appli
 **Track:** Machine Learning  
 **Organization:** ZAKA ©
 
----
-
 ## Problem Statement
 
 In a banking context, when someone applies for a loan, how likely are they to get approved based on their profile? This notebook addresses this question by building a predictive model that classifies loan applications as approved or rejected.
