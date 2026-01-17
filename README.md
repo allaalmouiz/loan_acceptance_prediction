@@ -5,7 +5,6 @@
 This project implements a machine learning model to predict whether a loan application will be accepted or rejected based on applicant profile features. It's a binary classification problem that walks through the complete Data Science lifecycle from data preparation to model evaluation.
 
 **Submitted by:** Alaa Almouiz F. Moh.  
-**ID Number:** S2026_176  
 **Track:** Machine Learning  
 **Organization:** ZAKA ©
 
@@ -30,14 +29,14 @@ The project uses a loan dataset with the following features:
 | `LoanAmount` | Loan amount requested (in thousands) |
 | `Loan_Amount_Term` | Loan term (in months) |
 | `Credit_History` | Credit history meets guidelines (binary) |
-| `Property_Area` | Property location (Urban/Rural/Semi-Urban) |
+| `Property_Area` | Property location (Urban/Rural/SemiUrban) |
 | `Loan_Status` | **Target variable** - Loan approved (Y/N) |
 
 
 ## Project Structure
 
 ### 1. **Data Preparation**
-   - Clone dataset from GitHub repository
+   - Clone the dataset from GitHub repository
    - Import necessary Python libraries (NumPy, Pandas, Matplotlib, Scikit-learn)
    - Load training and testing datasets
 
@@ -102,9 +101,9 @@ The project uses a loan dataset with the following features:
 - **Recall (Approved):** 99% - captures almost all approved loans
 
 ### Notable Observations
-- Applicant income shows positive correlation with loan amount
+- Applicant income shows a positive correlation with loan amount
 - Loan amount term and credit history should ideally be treated as categorical features
-- Linear Regression works reasonably well despite being a continuous regression model adapted for classification
+- Logistic Regression works reasonably well. 
 
 
 ## Technologies Used
@@ -142,7 +141,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 
 ## Limitations & Future Improvements
 
-1. **Model Choice:** Linear Regression is not ideal for binary classification; logistic regression or tree-based models would be more appropriate
 2. **Class Imbalance:** The dataset is imbalanced, which may bias predictions toward approvals
 3. **Feature Engineering:** Additional features or feature interactions could improve performance
 4. **Hyperparameter Tuning:** No optimization was performed on model parameters
@@ -160,10 +158,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 ## Author
 
 **Alaa Almouiz F. Moh.**  
-ID: S2026_176  
 Submitted for: ZAKA ©
 
----
 
 ## License
 
