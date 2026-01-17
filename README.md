@@ -4,10 +4,6 @@
 
 This project implements a machine learning model to predict whether a loan application will be accepted or rejected based on applicant profile features. It's a binary classification problem that walks through the complete Data Science lifecycle from data preparation to model evaluation.
 
-**Submitted by:** Alaa Almouiz F. Moh.  
-**Track:** Machine Learning  
-**Organization:** ZAKA ©
-
 ## Problem Statement
 
 In a banking context, when someone applies for a loan, how likely are they to get approved based on their profile? This notebook addresses this question by building a predictive model that classifies loan applications as approved or rejected.
@@ -168,6 +164,8 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 
 **Alaa Almouiz F. Moh.**  
 Submitted for: ZAKA ©
+**Track:** Machine Learning  
+**Organization:** ZAKA ©
 
 
 ## License
