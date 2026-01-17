@@ -18,7 +18,8 @@ In a banking context, when someone applies for a loan, how likely are they to ge
 ...
 ├── Loan_Acceptance_Prediction_Challange_AlaaAlmouiz(S2026_176).ipynb
 ├── test.csv
-├── train.csv
+├── train.csv 
+├── loan_challange.png
 └── README.md          # Main repository overview
 ```
 
