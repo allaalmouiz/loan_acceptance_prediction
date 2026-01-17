@@ -164,9 +164,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 
 **Alaa Almouiz F. Moh.**  
 Submitted for: ZAKA ©
-**Track:** Machine Learning  
-**Organization:** ZAKA ©
-
 
 ## License
 
