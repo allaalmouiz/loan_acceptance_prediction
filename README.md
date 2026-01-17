@@ -1,4 +1,9 @@
-# Loan Acceptance Prediction Challenge - Module 1
+# Loan Acceptance Prediction Challenge
+
+<p align="center">
+  <img src="loan_challange.png" alt="Loan Challanges Chain of Thoughts" width="400">
+</p>
+
 
 ## Overview
 
