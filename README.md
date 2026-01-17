@@ -12,6 +12,13 @@ This project implements a machine learning model to predict whether a loan appli
 
 In a banking context, when someone applies for a loan, how likely are they to get approved based on their profile? This notebook addresses this question by building a predictive model that classifies loan applications as approved or rejected.
 
+## Repository Structure
+...
+├── Loan_Acceptance_Prediction_Challange_AlaaAlmouiz(S2026_176).ipynb
+├── test.csv
+├── train.csv
+└── README.md          # Main repository overview
+
 ## Dataset
 
 The project uses a loan dataset with the following features:
@@ -137,7 +144,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix, classification_rep
 | Recall (Class 0) | 47% |
 | Precision (Class 1) | 79% |
 | Recall (Class 1) | 99% |
-| F1-Score (Class 1) | 0.87 |
+| F1-Score (Class 1) | 87% |
 
 ## Limitations & Future Improvements
 
