@@ -1,7 +1,7 @@
 # Loan Acceptance Prediction Challenge
 
 <p align="center">
-  <img src="loan_challange.png" alt="Loan Challanges Chain of Thoughts" width="900">
+  <img src="loan_challange.png" alt="Loan Challanges Chain of Thoughts" width="950">
 </p>
 
 
